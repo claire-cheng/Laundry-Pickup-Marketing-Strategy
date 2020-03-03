@@ -18,4 +18,7 @@ New that we know where the new cities are located, we can dig deeper with analyt
 ## **Cluster Analysis**
 ROMI is calculated based on revenue and marketing investment, so we want to see how the distribution and relationship looks like between these two variables for each city. 
 
-![Image](https://github.com/claire-cheng/Laundry-Pickup-Marketing-Strategy/blob/master/New%20cities%20locations.png).
+![Image](https://raw.githubusercontent.com/claire-cheng/Laundry-Pickup-Marketing-Strategy/master/Clustering%20without%20population.png).
+
+Just by eyeballing the visualization, it seems like our data can be grouped into two clusters based on the revenue, one roughly above 30K and the other cluster lies below 30K. However, Tableau decided to group the two clusters a little bit different than we expected. As shown in the graph above, Tableau seperated the two clusters by 36K instead of the 30K we anticipated in the beginning.
+(talk about the lower group where revenue is not increasing when marketing spend is increasing. the first group seems to be alright. maybe this is why tableau group them differently because something else is up. this is why we use external data- population to regroup the clusters to see if it would give us a different result).
