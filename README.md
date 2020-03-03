@@ -44,7 +44,7 @@ In the end, it could be interesting to see where the cities of each clusters are
 
 ![Image](https://raw.githubusercontent.com/claire-cheng/Laundry-Pickup-Marketing-Strategy/master/Location%20of%20the%20clusters.png).
 
-![Image](https://raw.githubusercontent.com/claire-cheng/Laundry-Pickup-Marketing-Strategy/master/Location%20of%20the%20clusters.png).
+![Image](https://raw.githubusercontent.com/claire-cheng/Laundry-Pickup-Marketing-Strategy/master/location%20of%20clusters%20new%20cities.png).
 
 ## **Conclusion**
 
