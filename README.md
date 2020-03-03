@@ -16,3 +16,6 @@ We can see from the graph that the new cities are located in California, Arizona
 New that we know where the new cities are located, we can dig deeper with analytics to see if there are any trends that can help us draw some insights and make meaningful decisions for this laundry-pickup service startup.
 
 ## **Cluster Analysis**
+ROMI is calculated based on revenue and marketing investment, so we want to see how the distribution and relationship looks like between these two variables for each city. 
+
+![Image](https://github.com/claire-cheng/Laundry-Pickup-Marketing-Strategy/blob/master/New%20cities%20locations.png).
