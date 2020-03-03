@@ -42,7 +42,7 @@ Based on the analyses, we know that investing in **Cluster 2** would not be a go
 
 In the end, it could be interesting to see where the cities of each clusters are located in the United States on the map.
 
-![Image](https://raw.githubusercontent.com/claire-cheng/Laundry-Pickup-Marketing-Strategy/master/Location%20of%20the%20clusters.png).
+![Image](https://raw.githubusercontent.com/claire-cheng/Laundry-Pickup-Marketing-Strategy/master/all_cities.png).
 
 ![Image](https://raw.githubusercontent.com/claire-cheng/Laundry-Pickup-Marketing-Strategy/master/location%20of%20clusters%20new%20cities.png).
 
