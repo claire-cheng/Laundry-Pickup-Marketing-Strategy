@@ -21,10 +21,33 @@ ROMI is calculated based on revenue and marketing investment, so we want to see 
 ![Image](https://raw.githubusercontent.com/claire-cheng/Laundry-Pickup-Marketing-Strategy/master/Clustering%20without%20population.png).
 
 Just by eyeballing the visualization, it seems like our data can be grouped into two clusters based on the revenue, one roughly above 30K and the other cluster lies below 30K. However, Tableau decided to group the two clusters a little bit different than what we expected. As shown in the graph above, Tableau seperated the two clusters by 36K instead of the 30K we anticipated in the beginning. Due to the differences, we would want to look into the graph more closer to see if there are any trends identified for each cluster. As we can see from Cluster 1, there seems to be a positive linear trend that indicates the higher the marketing spend, the higher the return on ROMI- the revunue returned from the services provided at a specific city. The behavior in Cluster 1 is anticipated as ideally, the more we invest in something, the more ROI we would expect to be returned. Whereas for Cluster 2, it seems that there is also a trend here with a linear trend with a slope that is close to 0. This indicates that for those cities that are in this cluster, it does not matter how much money we are spending on marketing, the revenue that is generated from these cities are not increasing as the expected behavior. As a result of this initial cluster analysis, it makes us wonder if there is some other factors that are affecting these cities in Cluster 2. 
+
 Population plays a big role in launry services, as the more people there are in a city, the more dirty laundry there are that would be needing laundry services. What if the population size in the cities in Cluster 2 are relatively small, so that no matter how much money we spend on marketing would not add value to increasing number of laundry services needed, let alone generating more revenue. In this case, we are going to use external data sources to provide us the size of the population of the cities the startup has its services in. 
 
 ![Image](https://raw.githubusercontent.com/claire-cheng/Laundry-Pickup-Marketing-Strategy/master/Clustering%20with%20population.png).
 
-As shown in the graph above, we are including our external data on the population in the cities into our original dataset and using Tableau to recluster the new dataset. Tableau has grouped our data into three clusters and we drew linear trend lines across that data points in each cluster to make the graph even easier to be visualized. Tableau seperated the clusters by grouping the cities with closer population sizes into the same cluster. Cluster 3 (Red) has a population size of 150K and above, Cluster 1 (Blue) has a population size between 120K and 150K, and Cluster 2's population size (Orange) lies below 120K.
+As shown in the graph above, we are including our external data on the population in the cities into our original dataset and using Tableau to recluster the new dataset. Tableau has grouped our data into three clusters and we drew linear trend lines across that data points in each cluster to make the graph even easier to be visualized. Tableau seperated the clusters by grouping the cities with closer population sizes into the same cluster. Cluster 3 (Red) has a population size of 150K and above, Cluster 1 (Blue) has a population size between 120K and 150K, and Cluster 2's population size (Orange) lies below 120K. 
 
-(talk about the lower group where revenue is not increasing when marketing spend is increasing. the first group seems to be alright. maybe this is why tableau group them differently because something else is up. this is why we use external data- population to regroup the clusters to see if it would give us a different result).
+Based on the trends in the graph, we have formulated linear regression equations for each of the clusters:
+ - Cluster 3: Revenue = 3.17218 * Marketing Spend + 45983.9
+ - Cluster 1: Revenue = 7.32119 * Marketing Spend + 22588.1
+ - Cluster 2: Revenue = 0.943854 * Marketing Spend + 16943.9
+
+These linear regression equations give us the information of the slopes for each cluster's trend, which is a good indication for us to decide which of the three clusters has the most potential to be invested in since it could potential have the highest ROMI, which is analyzed as follows:
+ - Cluster 3: for every dollar we invest in marketing, the startup could potentially earn 3.17 dollars in revenue.
+ - Cluster 1: for every dollar we invest in marketing, the startup could potentially earn 7.32 dollars in revenue.
+ - Cluster 2: for every dollar we invest in marketing, the startup could potentially earn 0.94 dollars in revenue.
+
+Based on the analyses, we know that investing in Cluster 2 would not be a good idea since we will be losing a little bit of money for every dollar we spend on investment. This also confirms our hypothesis from earlier that due to the smaller population size in Cluster 2, it does not matter how much we investing on marketing, there is a limited number of people who need to use laundry services. On the other hand, Cluster 1 would be the group of cities that this startup should pay more attention to and invest more marketing in them since it returns more than double the revenue comparing to Cluster 3 for every dollar spend on the investment. 
+
+In the end, it could be interesting to see where the cities of each clusters are located in the United States on the map.
+
+![Image](https://raw.githubusercontent.com/claire-cheng/Laundry-Pickup-Marketing-Strategy/master/Location%20of%20the%20clusters.png).
+
+## **Conclusion**
+
+which state?
+
+In conclusion, Cluster 1 has the most potential to grow. 
+
+In the end, it could 
