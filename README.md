@@ -25,6 +25,6 @@ Population plays a big role in launry services, as the more people there are in 
 
 ![Image](https://raw.githubusercontent.com/claire-cheng/Laundry-Pickup-Marketing-Strategy/master/Clustering%20with%20population.png).
 
-As shown in the graph above, we are including our external data on the population in the cities into our original dataset and using Tableau to recluster the new dataset. 
+As shown in the graph above, we are including our external data on the population in the cities into our original dataset and using Tableau to recluster the new dataset. Tableau has grouped our data into three clusters and we drew linear trend lines across that data points in each cluster to make the graph even easier to be visualized. Tableau seperated the clusters by grouping the cities with closer population sizes into the same cluster. Cluster 3 (Red) has a population size of 150K and above, Cluster 1 (Blue) has a population size between 120K and 150K, and Cluster 2's population size (Orange) lies below 120K.
 
 (talk about the lower group where revenue is not increasing when marketing spend is increasing. the first group seems to be alright. maybe this is why tableau group them differently because something else is up. this is why we use external data- population to regroup the clusters to see if it would give us a different result).
