@@ -4,7 +4,7 @@ A laundry-pickup sevices startup is in a Blue Ocean that are building its networ
 ## **Exploratory Data Analysis via Data Visualization**
 First we want to get a good idea of where the services are located in the United States. And we can also visualize how much revenue the cities are roughly earning, the bigger the circles, the more the revenue.
 
-![Image](https://raw.githubusercontent.com/claire-cheng/Laundry-Pickup-Marketing-Strategy/master/image.png).
+![Image](https://github.com/claire-cheng/Laundry-Pickup-Marketing-Strategy/blob/master/Service%20locations.png).
 
 We can see from the image that the services location of the startup are spreaded throughout the country. But it is not visible to us whether there is a trend in the revenue or not just by looking at this map.
 
