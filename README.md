@@ -31,7 +31,7 @@ As shown in the graph above, we are including our external data on the populatio
 Based on the trends in the graph, we have formulated linear regression equations for each of the clusters:
  - **Cluster 3: Revenue = 3.17218 * Marketing Spend + 45983.9**
  - **Cluster 1: Revenue = 7.32119 * Marketing Spend + 22588.1**
- - **Cluster 2: Revenue = 0.943854 * Marketing Spend + 16943.9**
+ - **Cluster 2: Revenue = 0.94385 * Marketing Spend + 16943.9**
 
 These linear regression equations give us the information of the slopes for each cluster's trend, which is a good indication for us to decide which of the three clusters has the most potential to be invested in since it could potential have the highest ROMI, which is analyzed as follows:
  - **Cluster 3**: for every dollar we invest in marketing, the startup could potentially earn **3.17** dollars in revenue.
